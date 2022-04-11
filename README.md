@@ -10,7 +10,7 @@ As this extension is likely to become broken or useless as soon as the page layo
 So you've got to download the extension from this repo and install it manually:
 
 - clone or download this repo from GitHub
-- unpack the downloaded master.zip
+- unpack the downloaded .zip
 - open extensions manager in Chrome (you can use this link as shortcut: chrome://extensions/ )
 - maybe you have to activate the option "Developer mode" in upper right corner of Chrome
 - then you should see a button "Load unpacked" to select and load the unzipped folder into the browser
