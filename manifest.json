@@ -1,0 +1,15 @@
+{
+  "name": "Make Room!",
+  "description": "This extension applies only to the simulator testing page in the Alexa Dev Console. It makes room for the request/response output on the right side of the page by removing the personalisation section, if personalisation is disabled.",
+  "author": "Lars Lipinski",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "48": "/img/icon_48.png",
+    "128": "/img/icon_128.png"
+  },
+  "content_scripts": [{
+    "matches":    ["https://developer.amazon.com/alexa/console/ask/test/*"],
+    "js":         ["makeroom.js"]
+  }]
+}
